@@ -1,0 +1,3 @@
+access uploader:
+  title: 'Access and use the photo uploader'
+  restrict access: true

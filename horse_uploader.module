@@ -1,0 +1,24 @@
+<?php
+
+/**
+ * @file
+ * Contains horse_uploader.module..
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function horse_uploader_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the horse_uploader module.
+    case 'help.page.horse_uploader':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('Uploader') . '</p>';
+      return $output;
+
+    default:
+  }
+}

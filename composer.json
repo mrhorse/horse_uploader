@@ -1,0 +1,16 @@
+{
+  "name": "drupal/horse_uploader",
+  "type": "drupal-module",
+  "description": "Uploader",
+  "keywords": ["Drupal"],
+  "license": "GPL-2.0+",
+  "homepage": "https://www.drupal.org/project/horse_uploader",
+  "minimum-stability": "dev",
+  "support": {
+    "issues": "https://www.drupal.org/project/issues/horse_uploader",
+    "source": "http://cgit.drupalcode.org/horse_uploader"
+  },
+  "require": {
+    "lsolesen/pel": "*"
+  }
+}

@@ -1,0 +1,8 @@
+name: horse_uploader
+type: module
+description: Uploader
+core: 8.x
+package: Custom
+dependencies:
+  - plupload
+  - plupload_widget

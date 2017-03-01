@@ -1,0 +1,16 @@
+#horse_uploader.upload_form:
+#  path: '/upload'
+#  defaults:
+#    _title: 'Upload'
+#    _form: '\Drupal\horse_uploader\Form\UploadForm'
+#  requirements:
+#    _permission: 'access uploader'/
+
+horse_uploader.upload_form:
+  path: '/uploader'
+  defaults:
+    _form: '\Drupal\horse_uploader\Form\UploadForm'
+    _title: 'Upload media'
+  requirements:
+    _permission: 'access uploader'
+  
